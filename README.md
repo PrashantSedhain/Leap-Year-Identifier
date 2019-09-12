@@ -1,18 +1,20 @@
 # Leap-Year-Identifier
 This small C program gives the number of days in certain days of the month after taking input of year and month as an integer value from the user. It also accounts for possible leap year.
 
-#include <stdio.h>
-#include <stdlib.h>
 
-int main(int argc, char** argv) {
+    #include <stdio.h>
+    #include <stdlib.h>
+
+    int main(int argc, char** argv) {
+    
     int year;
     int month; 
+    
     while(1)
     {
         printf("Enter year month: ");
         scanf("%d", &year);
         scanf("%d", &month);
-        
         switch(month)
         {
             case 1:
